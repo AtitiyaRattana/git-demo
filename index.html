@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The Tree</title>
+        <meta name="description" content="This is the description">
+        <link rel="stylesheet" href="style.css" />
+        <script src="buy.js" async></script>
+    </head>
+    <body>
+        <header class="main-header">
+          <div>
+            <h1 class="band-name band-name-large">The Tree</h1>
+            <img id="myBtn" src="Images/cart.jpg" style="float: right;" class="image">
+          </div>
+          <div>
+            <!-- <img id="myBtn" src="Images/cart.jpg" style="float: right" width="50" height="50"> -->
+              <div id="myModal" class="modal">
+                 <div class="modal-content">
+                  <span class="close">&times;</span>
+                  <section class="container content-section">
+                  <h2 class="section-header">CART</h2>
+                  <div class="cart-row">
+                  <span class="cart-item cart-header cart-column">ITEM</span>
+                  <span class="cart-price cart-header cart-column">PRICE</span>
+                  <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+                  </div>
+                  <div class="cart-items">
+                <!-- </div> -->
+                <div class="cart-total">
+                  <strong class="cart-total-title">Total</strong>
+                  <span class="cart-total-price">$0</span>
+                </div>
+                </div>
+              <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+                </section>
+                </div>
+              </div>
+          </div> 
+        </header>
+        <hr>
+        <section class="container content-section">
+          <!-- <img class="centerimage" src="Images/tree_bak1.jpg"> -->
+
+          <div class="slideshow-container">
+
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 3</div>
+              <img src="Images/tree_bak1.jpg" style="width:100%">
+            </div>
+          
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 3</div>
+              <img src="Images/tree_bak2.jpg" style="width:100%">
+            </div>
+          
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 3</div>
+              <img src="Images/tree_bak3.jpg" style="width:100%">
+            </div>
+          
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+          <br>
+          
+          <!-- The dots/circles -->
+          <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+          </div>
+
+          <hr>
+            <h2 class="section-header">Tree</h2>
+            <div class="tree-items">
+                <div class="tree-item">
+                    <span class="tree-item-title">Tree 1</span>
+                    <img class="tree-item-image" src="Images/tree1.jpg">
+                    <div class="tree-item-details">
+                        <span class="tree-item-price">$12.99</span>
+                        <button class="btn btn-primary tree-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="tree-item">
+                    <span class="tree-item-title">Tree 2</span>
+                    <img class="tree-item-image" src="Images/tree2.jpg">
+                    <div class="tree-item-details">
+                        <span class="tree-item-price">$14.99</span>
+                        <button class="btn btn-primary tree-item-button"type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="tree-item">
+                    <span class="tree-item-title">Tree 3</span>
+                    <img class="tree-item-image" src="Images/tree3.jpg">
+                    <div class="tree-item-details">
+                        <span class="tree-item-price">$9.99</span>
+                        <button class="btn btn-primary tree-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="tree-item">
+                    <span class="tree-item-title">Tree 4</span>
+                    <img class="tree-item-image" src="Images/tree4.jpg">
+                    <div class="tree-item-details">
+                        <span class="tree-item-price">$8.99</span>
+                        <button class="btn btn-primary tree-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="tree-item">
+                  <span class="tree-item-title">Tree 5</span>
+                  <img class="tree-item-image" src="Images/tree5.jpg">
+                  <div class="tree-item-details">
+                      <span class="tree-item-price">$7.99</span>
+                      <button class="btn btn-primary tree-item-button" type="button">ADD TO CART</button>
+                  </div>
+               </div>
+               <div class="tree-item">
+                <span class="tree-item-title">Tree 6</span>
+                <img class="tree-item-image" src="Images/tree6.jpg">
+                <div class="tree-item-details">
+                    <span class="tree-item-price">$8.93</span>
+                    <button class="btn btn-primary tree-item-button" type="button">ADD TO CART</button>
+                </div>
+              </div>
+              <div class="tree-item">
+              <span class="tree-item-title">Tree 7</span>
+              <img class="tree-item-image" src="Images/tree7.jpg">
+              <div class="tree-item-details">
+                  <span class="tree-item-price">$5</span>
+                  <button class="btn btn-primary tree-item-button" type="button">ADD TO CART</button>
+              </div>
+            </div>
+            <div class="tree-item">
+            <span class="tree-item-title">Tree 8</span>
+            <img class="tree-item-image" src="Images/tree8.jpg">
+            <div class="tree-item-details">
+                <span class="tree-item-price">$9</span>
+                <button class="btn btn-primary tree-item-button" type="button">ADD TO CART</button>
+            </div>
+           </div>
+           <div class="tree-item">
+            <span class="tree-item-title">Tree 9</span>
+            <img class="tree-item-image" src="Images/tree9.jpg">
+            <div class="tree-item-details">
+                <span class="tree-item-price">$10</span>
+                <button class="btn btn-primary tree-item-button" type="button">ADD TO CART</button>
+            </div>
+           </div>
+          </div>
+        </section>
+
+        <!-- <section class="container content-section">
+            <h2 class="section-header">CART</h2>
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column">ITEM</span>
+                <span class="cart-price cart-header cart-column">PRICE</span>
+                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+            </div>
+            <div class="cart-items">
+            </div>
+            <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price">$0</span>
+            </div>
+            <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+        </section> -->
+
+        <!-- <button id="myBtn">CART</button>
+          <div id="myModal" class="modal">
+            <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Some text in the Modal..</p>
+            <section class="container content-section">
+              <h2 class="section-header">CART</h2>
+              <div class="cart-row">
+                  <span class="cart-item cart-header cart-column">ITEM</span>
+                  <span class="cart-price cart-header cart-column">PRICE</span>
+                  <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+              </div>
+              <div class="cart-items">
+              </div>
+              <div class="cart-total">
+                  <strong class="cart-total-title">Total</strong>
+                  <span class="cart-total-price">$0</span>
+              </div>
+              <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+          </section>
+          </div>
+        </div> -->
+
+    </body>
+</html>
